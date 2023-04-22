@@ -8,6 +8,22 @@ public class filme {
     private int totalDeAlavaliacoes;
     private int duracaoEmMinutos;
 
+    public String getNome() {
+        return nome;
+    }
+
+    public int getAnoDeLancamento() {
+        return anoDeLancamento;
+    }
+
+    public boolean isIncluidoNoPlano() {
+        return incluidoNoPlano;
+    }
+
+    public int getDuracaoEmMinutos() {
+        return duracaoEmMinutos;
+    }
+
     public int getTotalDeAlavaliacoes() {
         return totalDeAlavaliacoes;
     }
@@ -29,7 +45,7 @@ public class filme {
     }
 
     public void exibeFichaTecnica() {
-        System.out.println("Nome do br.com.screenmatch.modelos.filme: " + nome);
+        System.out.println("Nome do filme: " + nome);
         System.out.println("Ano de lançamento: " + anoDeLancamento);
     }
 
