@@ -1,4 +1,6 @@
 import br.com.screenmatch.calculo.CalculadoraDeTempo;
+import br.com.screenmatch.calculo.FiltroRecomendacao;
+import br.com.screenmatch.modelos.Episodios;
 import br.com.screenmatch.modelos.Serie;
 import br.com.screenmatch.modelos.filme;
 
@@ -13,7 +15,7 @@ public class Principal {
         meuFilme.exibeFichaTecnica();
         meuFilme.avalia(8);
         meuFilme.avalia(5);
-        meuFilme.avalia(9);
+        meuFilme.avalia(10);
         System.out.println("Total de avaliações: " + meuFilme.getTotalDeAlavaliacoes());
         System.out.println("Média de notas: " + meuFilme.pegaMedia());
 
@@ -21,7 +23,7 @@ public class Principal {
         theOffice.setNome("The Office");
         theOffice.setAnoDeLancamento(2005);
         theOffice.exibeFichaTecnica();
-        theOffice.setTemporadas(9);
+       theOffice.setTemporadas(9);
         theOffice.setEpisodiosPorTemporada(28);
         theOffice.setMinutosPorEpisodio(22);
         System.out.println("Duração total da série: " + theOffice.getDuracaoEmMinutos());
@@ -37,6 +39,13 @@ public class Principal {
         calculadora.inclui(theOffice);
         System.out.println(calculadora.getTempoTotal());
 
+        FiltroRecomendacao filtro = new FiltroRecomendacao();
+        filtro.filtra(meuFilme);
 
+        Episodios episodios = new Episodios();
+        episodios.setNumero(1);
+        episodios.setSerie(theOffice);
+        episodios.setTotalVisualizacoes(300);
+        filtro.filtra(episodios);
     }
 }
