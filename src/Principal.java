@@ -4,6 +4,8 @@ import br.com.screenmatch.modelos.Episodios;
 import br.com.screenmatch.modelos.Serie;
 import br.com.screenmatch.modelos.filme;
 
+import java.util.ArrayList;
+
 public class Principal {
     public static void main(String[] args) {
         filme meuFilme = new filme();
@@ -23,7 +25,7 @@ public class Principal {
         theOffice.setNome("The Office");
         theOffice.setAnoDeLancamento(2005);
         theOffice.exibeFichaTecnica();
-       theOffice.setTemporadas(9);
+        theOffice.setTemporadas(9);
         theOffice.setEpisodiosPorTemporada(28);
         theOffice.setMinutosPorEpisodio(22);
         System.out.println("Duração total da série: " + theOffice.getDuracaoEmMinutos());
@@ -47,5 +49,20 @@ public class Principal {
         episodios.setSerie(theOffice);
         episodios.setTotalVisualizacoes(300);
         filtro.filtra(episodios);
+
+        var filmeDoArtur = new filme();
+        filmeDoArtur.setNome("Spiderman: Into the Spiderverse");
+        filmeDoArtur.setAnoDeLancamento(2018);
+        filmeDoArtur.setDuracaoEmMinutos(100);
+        filmeDoArtur.avalia(10);
+
+        ArrayList<filme> listaDeFilmes = new ArrayList<>();
+        listaDeFilmes.add(filmeDoArtur);
+        listaDeFilmes.add(meuFilme);
+        listaDeFilmes.add(outroFilme);
+        System.out.println("Tamanho da lista: " + listaDeFilmes.size());
+        System.out.println("Primeiro filme: " + listaDeFilmes.get(0).getNome());
+        System.out.println(listaDeFilmes);
+
     }
 }
