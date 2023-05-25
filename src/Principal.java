@@ -8,31 +8,25 @@ import java.util.ArrayList;
 
 public class Principal {
     public static void main(String[] args) {
-        filme meuFilme = new filme();
-        meuFilme.setNome("The Godfather");
-        meuFilme.setAnoDeLancamento(1972);
+        filme meuFilme = new filme("The Godfather", 1972);
         meuFilme.setDuracaoEmMinutos(180);
         meuFilme.setIncluidoNoPlano(true);
 
         meuFilme.exibeFichaTecnica();
         meuFilme.avalia(8);
-        meuFilme.avalia(5);
+        meuFilme.avalia(8.5);
         meuFilme.avalia(10);
         System.out.println("Total de avaliações: " + meuFilme.getTotalDeAlavaliacoes());
         System.out.println("Média de notas: " + meuFilme.pegaMedia());
 
-        Serie theOffice = new Serie();
-        theOffice.setNome("The Office");
-        theOffice.setAnoDeLancamento(2005);
+        Serie theOffice = new Serie("The Office", 2005);
         theOffice.exibeFichaTecnica();
         theOffice.setTemporadas(9);
         theOffice.setEpisodiosPorTemporada(28);
         theOffice.setMinutosPorEpisodio(22);
         System.out.println("Duração total da série: " + theOffice.getDuracaoEmMinutos());
 
-        filme outroFilme = new filme();
-        outroFilme.setNome("Close");
-        outroFilme.setAnoDeLancamento(2022);
+        filme outroFilme = new filme("Close", 2022);
         outroFilme.setDuracaoEmMinutos(110);
 
         CalculadoraDeTempo calculadora = new CalculadoraDeTempo();
@@ -50,9 +44,7 @@ public class Principal {
         episodios.setTotalVisualizacoes(300);
         filtro.filtra(episodios);
 
-        var filmeDoArtur = new filme();
-        filmeDoArtur.setNome("Spiderman: Into the Spiderverse");
-        filmeDoArtur.setAnoDeLancamento(2018);
+        var filmeDoArtur = new filme("Spiderman: Into the Spiderverse", 2018);
         filmeDoArtur.setDuracaoEmMinutos(100);
         filmeDoArtur.avalia(10);
 
@@ -63,6 +55,5 @@ public class Principal {
         System.out.println("Tamanho da lista: " + listaDeFilmes.size());
         System.out.println("Primeiro filme: " + listaDeFilmes.get(0).getNome());
         System.out.println(listaDeFilmes);
-
     }
 }

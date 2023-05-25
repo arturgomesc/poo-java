@@ -8,6 +8,10 @@ public class Episodios extends Titulo implements Classificavel {
     private Serie serie;
     private int totalVisualizacoes;
 
+    public Episodios() {
+        super(nome, anoDeLancamento);
+    }
+
     public int getTotalVisualizacoes() {
         return totalVisualizacoes;
     }
