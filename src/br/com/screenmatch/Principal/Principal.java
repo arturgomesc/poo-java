@@ -1,14 +1,16 @@
+package br.com.screenmatch.Principal;
+
 import br.com.screenmatch.calculo.CalculadoraDeTempo;
 import br.com.screenmatch.calculo.FiltroRecomendacao;
 import br.com.screenmatch.modelos.Episodios;
 import br.com.screenmatch.modelos.Serie;
-import br.com.screenmatch.modelos.filme;
+import br.com.screenmatch.modelos.Filme;
 
 import java.util.ArrayList;
 
 public class Principal {
     public static void main(String[] args) {
-        filme meuFilme = new filme("The Godfather", 1972);
+        Filme meuFilme = new Filme("The Godfather", 1972);
         meuFilme.setDuracaoEmMinutos(180);
         meuFilme.setIncluidoNoPlano(true);
 
@@ -26,7 +28,7 @@ public class Principal {
         theOffice.setMinutosPorEpisodio(22);
         System.out.println("Duração total da série: " + theOffice.getDuracaoEmMinutos());
 
-        filme outroFilme = new filme("Close", 2022);
+        Filme outroFilme = new Filme("Close", 2022);
         outroFilme.setDuracaoEmMinutos(110);
 
         CalculadoraDeTempo calculadora = new CalculadoraDeTempo();
@@ -44,11 +46,11 @@ public class Principal {
         episodios.setTotalVisualizacoes(300);
         filtro.filtra(episodios);
 
-        var filmeDoArtur = new filme("Spiderman: Into the Spiderverse", 2018);
+        var filmeDoArtur = new Filme("Spiderman: Into the Spiderverse", 2018);
         filmeDoArtur.setDuracaoEmMinutos(100);
         filmeDoArtur.avalia(10);
 
-        ArrayList<filme> listaDeFilmes = new ArrayList<>();
+        ArrayList<Filme> listaDeFilmes = new ArrayList<>();
         listaDeFilmes.add(filmeDoArtur);
         listaDeFilmes.add(meuFilme);
         listaDeFilmes.add(outroFilme);

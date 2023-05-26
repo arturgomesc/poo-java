@@ -2,15 +2,11 @@ package br.com.screenmatch.modelos;
 
 import br.com.screenmatch.calculo.Classificavel;
 
-public class Episodios extends Titulo implements Classificavel {
+public class Episodios implements Classificavel {
     private int numero;
     private String nome;
     private Serie serie;
     private int totalVisualizacoes;
-
-    public Episodios() {
-        super(nome, anoDeLancamento);
-    }
 
     public int getTotalVisualizacoes() {
         return totalVisualizacoes;
@@ -26,16 +22,6 @@ public class Episodios extends Titulo implements Classificavel {
 
     public void setNumero(int numero) {
         this.numero = numero;
-    }
-
-    @Override
-    public String getNome() {
-        return nome;
-    }
-
-    @Override
-    public void setNome(String nome) {
-        this.nome = nome;
     }
 
     public Serie getSerie() {

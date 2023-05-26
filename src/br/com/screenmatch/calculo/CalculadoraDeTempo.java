@@ -1,8 +1,6 @@
 package br.com.screenmatch.calculo;
 
-import br.com.screenmatch.modelos.Serie;
 import br.com.screenmatch.modelos.Titulo;
-import br.com.screenmatch.modelos.filme;
 
 public class CalculadoraDeTempo {
     private int tempoTotal = 0;
