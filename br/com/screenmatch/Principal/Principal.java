@@ -3,8 +3,8 @@ package br.com.screenmatch.Principal;
 import br.com.screenmatch.calculo.CalculadoraDeTempo;
 import br.com.screenmatch.calculo.FiltroRecomendacao;
 import br.com.screenmatch.modelos.Episodios;
-import br.com.screenmatch.modelos.Serie;
 import br.com.screenmatch.modelos.Filme;
+import br.com.screenmatch.modelos.Serie;
 
 import java.util.ArrayList;
 

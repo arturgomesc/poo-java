@@ -4,27 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a4d1c12-f98e-43a8-8a5f-c96dbf8c33a0" name="Changes" comment="construtores">
-      <change afterPath="$PROJECT_DIR$/.idea/poo-java.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/screenmatch/Principal/PrincipalComListas.java" afterDir="false" />
+    <list default="true" id="c60e141b-ac15-43d6-9a32-f8a3e0f9625a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/poo-java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/poo-java.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/screenmatch/Principal/Principal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/screenmatch/calculo/CalculadoraDeTempo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/screenmatch/calculo/CalculadoraDeTempo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/screenmatch/modelos/Episodios.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/screenmatch/modelos/Episodios.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/screenmatch/modelos/filme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/screenmatch/modelos/Filme.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/screenmatch/Principal/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/br/com/screenmatch/Principal/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/screenmatch/Principal/PrincipalComListas.java" beforeDir="false" afterPath="$PROJECT_DIR$/br/com/screenmatch/Principal/PrincipalComListas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/screenmatch/calculo/CalculadoraDeTempo.java" beforeDir="false" afterPath="$PROJECT_DIR$/br/com/screenmatch/calculo/CalculadoraDeTempo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/screenmatch/calculo/Classificavel.java" beforeDir="false" afterPath="$PROJECT_DIR$/br/com/screenmatch/calculo/Classificavel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/screenmatch/calculo/FiltroRecomendacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/br/com/screenmatch/calculo/FiltroRecomendacao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/screenmatch/modelos/Episodios.java" beforeDir="false" afterPath="$PROJECT_DIR$/br/com/screenmatch/modelos/Episodios.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/screenmatch/modelos/Filme.java" beforeDir="false" afterPath="$PROJECT_DIR$/br/com/screenmatch/modelos/Filme.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/screenmatch/modelos/Serie.java" beforeDir="false" afterPath="$PROJECT_DIR$/br/com/screenmatch/modelos/Serie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/screenmatch/modelos/Titulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/br/com/screenmatch/modelos/Titulo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -37,67 +35,29 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2Ovofvoww0RUsYfXUD1UYIZiZ1u" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="2QcDuVjjys7HnWCN8HAOZyvKjue" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/labinf/IdeaProjects/poo-java1",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
-  <component name="RunManager">
-    <configuration name="Principal" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.screenmatch.Principal.Principal" />
-      <module name="poo-java-1" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6a4d1c12-f98e-43a8-8a5f-c96dbf8c33a0" name="Changes" comment="" />
-      <created>1682450522947</created>
+      <changelist id="c60e141b-ac15-43d6-9a32-f8a3e0f9625a" name="Changes" comment="" />
+      <created>1685644245186</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1682450522947</updated>
+      <updated>1685644245186</updated>
     </task>
-    <task id="LOCAL-00001" summary="construtores">
-      <created>1685047583861</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1685047583861</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="construtores" />
-    <option name="LAST_COMMIT_MESSAGE" value="construtores" />
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/poo_java1$Principal.ic" NAME="Principal Coverage Results" MODIFIED="1682451550861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
